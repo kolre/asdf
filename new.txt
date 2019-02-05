@@ -1,1 +1,7 @@
-hello
+---
+- hosts: all
+  remote_user: root
+  become: true
+  - name: to create user
+    user: name=jenkins_test state=present
+    ...
