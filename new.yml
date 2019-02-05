@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  remote_user: root
+  remote_user: jenkins
   become: true
   - name: to create user
     user: name=jenkins_test state=present
