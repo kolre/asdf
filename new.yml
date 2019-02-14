@@ -4,4 +4,4 @@
   become: true
   tasks:
   - name: to create user
-    user: name=jenkins_test state=present
+    user: name=jenkins123 state=present
